@@ -3,7 +3,7 @@ FROM eclipse-temurin:21-jre-alpine
 WORKDIR /app
 
 # Copy JAR from repo
-COPY server-standalone.jar app.jar
+COPY server-1.0.0-standalone.jar app.jar
 
 # Create data directory
 RUN mkdir -p /app/data
