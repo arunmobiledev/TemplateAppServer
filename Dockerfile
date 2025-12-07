@@ -1,4 +1,3 @@
-'EOF'
 FROM eclipse-temurin:21-jre-alpine
 
 WORKDIR /app
@@ -19,4 +18,3 @@ CMD ["java", \
      "-XX:+UseSerialGC", \
      "-jar", "app.jar", \
      "8080", "0.0.0.0", "/app/data/server.db"]
-EOF
